@@ -1,5 +1,12 @@
 # CPU-Scheduler
 
+讀入一份包含所選擇的排程法 時間片段以及CPU的ID   CPU Burst  Arrival Time   Priority 在依照各個排程法所定義的次序依序排程，最後會輸出該排程法得到的甘特圖 以及 每個process在做完的等待時間(waiting time ) 往返時間( Turnarround time ) 另外甘特圖的 id if > 9 會使用英文字母代替 ex A = 10, B = 11 以此類推
+
+1.	處理原則 – FCFS
+2.	處理原則 – RR
+3.	處理原則 – SRTF
+4.  處理原則 – PPRR
+5.  處理原則 – HRRN
 
 
 INPUT檔
